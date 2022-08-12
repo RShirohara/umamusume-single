@@ -12,4 +12,4 @@
 
 ## ライセンス
 
-[CC BY-SA 4.0](./LICENSE.md)
+[CC BY-SA 4.0](./LICENSE)
