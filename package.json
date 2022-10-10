@@ -1,0 +1,12 @@
+{
+  "name": "umamusume-single",
+  "version": "1.0.0",
+  "description": "ウマ娘短編小説",
+  "private": true,
+  "repository": "github:RShirohara/umamusume-single",
+  "author": "Ray Shirohara",
+  "license": "CC-BY-SA-4.0",
+  "devDependencies": {
+    "textlint": "^12.2.2"
+  }
+}
