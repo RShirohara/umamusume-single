@@ -1,0 +1,27 @@
+name: Novel CI
+on:
+  pull_request:
+    paths:
+      - docs/**.md
+
+env:
+  NODE_VERSION: 16
+jobs:
+  run_textlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup node/npm
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Run textlint
+        uses: tsuyoshicho/action-textlint@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-check
+          textlint_flags: "source/**.md"
