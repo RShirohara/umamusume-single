@@ -2,7 +2,7 @@ name: Novel CI
 on:
   pull_request:
     paths:
-      - docs/**.md
+      - source/**.md
 
 env:
   NODE_VERSION: 16
