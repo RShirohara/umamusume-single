@@ -3,6 +3,7 @@
     "markdown.preview.fontSize": 17,
     "markdown.styles": [ "source/preview.css" ],
     "textlint.run": "onType",
+    "textlint.targetPath": "source",
     "[markdown]": {
         "files.trimTrailingWhitespace": false
     }
