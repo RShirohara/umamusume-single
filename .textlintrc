@@ -1,10 +1,10 @@
 {
-    "rules": {
-        "@textlint-ja/no-synonyms": true,
-        "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
-        "general-novel-style-ja": true,
-        "ja-no-mixed-period": true,
-        "ja-unnatural-alphabet": true,
-        "prefer-tari-tari": true
-    }
+  "rules": {
+    "@textlint-ja/no-synonyms": true,
+    "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
+    "general-novel-style-ja": true,
+    "ja-no-mixed-period": true,
+    "ja-unnatural-alphabet": true,
+    "prefer-tari-tari": true
+  }
 }
